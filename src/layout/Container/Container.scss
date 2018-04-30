@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.vtop {
+  align-items: flex-start;
+}
+
+.vcenter {
+  align-items: center
+}
+
+.vbottom {
+  align-items: flex-end;
+}
+
+.hleft{
+  justify-content: flex-start;
+}
+.hcenter {
+  justify-content: center;
+}
+.hright {
+  justify-content: flex-end;
+}
